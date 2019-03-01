@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz">
+
+    <fragment
+        android:id="@+id/frag_main1"
+        android:name="com.example.mini_project_1_randall_larsen.quiz_frag_top"
+        android:layout_width="wrap_content"
+        android:layout_height="239dp"
+        tools:layout="@layout/fragment_quiz_frag_top" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="1"
+        android:columnCount="2"
+        >
+        <Button
+            android:id="@+id/ans_1button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hat"
+            android:layout_margin="5sp"
+            android:onClick="ans_1"/>
+
+        <Button
+            android:id="@+id/ans_2button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sombrero"
+            android:layout_margin="5sp"
+            android:onClick="ans_2"/>
+        <Button
+            android:id="@+id/ans_3button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coche"
+            android:layout_margin="5sp"
+            android:onClick="ans_3"/>
+
+        <Button
+            android:id="@+id/ans_4button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chait"
+            android:layout_margin="5sp"
+            android:onClick="ans_4"/>
+
+    </GridLayout>
+
+
+
+
+</LinearLayout>
